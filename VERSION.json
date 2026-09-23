@@ -1,0 +1,10 @@
+{
+  "project": "Alien Grammar Synth — ZORG",
+  "version": "14",
+  "edition": "ChatGPT / Codex",
+  "date": "2026.09.24",
+  "timezone": "Asia/Irkutsk",
+  "requested_by": "Anton Petukhov",
+  "source_commit": "467d9a3dc5c5f3eaafb825c71c923bf470ec667b",
+  "site_url": "https://alien-grammar-synth.tosherr.chatgpt.site"
+}
