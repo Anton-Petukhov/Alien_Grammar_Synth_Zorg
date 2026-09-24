@@ -327,7 +327,7 @@ export default function Home() {
     setMessage("Создаю организм…");
     if (!window.isSecureContext) throw new Error("Звук доступен по HTTPS. Открой опубликованную страницу Зорга.");
     const context = new AudioContext({ latencyHint: "interactive" });
-    try { await context.audioWorklet.addModule("/alien-processor.js?v=14"); }
+    try { await context.audioWorklet.addModule("/alien-processor.js?v=15"); }
     catch { await context.close(); throw new Error("Не удалось загрузить звук. Обнови страницу и нажми «Запустить»."); }
     const node = new AudioWorkletNode(context, "alien-grammar-processor", {
       numberOfInputs: 0,
@@ -715,12 +715,12 @@ export default function Home() {
           <div>
             <div className="flex items-center gap-3">
               <span className={`status-lamp ${running ? "is-running" : ""}`} aria-hidden="true" />
-              <p className="eyebrow">ЗОРГ / ЖИВАЯ МУЗЫКА · V14</p>
+              <p className="eyebrow">ЗОРГ / ЖИВАЯ МУЗЫКА · V15</p>
             </div>
             <h1 className="mt-2 text-2xl font-semibold tracking-[-0.035em] sm:text-3xl">Alien Grammar Synth</h1>
           </div>
           <p className="max-w-xl text-sm leading-6 text-[var(--muted-ink)] sm:text-right">
-            18 музыкантов наследуют мелодии, ритмы и тембры. Нажми «Ещё 100 лет» и сравни их музыку с предком.
+            Дышащие голоса, резонансные струны и полые ударные. 18 музыкантов наследуют мелодии и строение своих инструментов. Нажми «Ещё 100 лет» и сравни с предком.
           </p>
         </header>
 

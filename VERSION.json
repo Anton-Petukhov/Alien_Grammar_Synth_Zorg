@@ -1,10 +1,12 @@
 {
   "project": "Alien Grammar Synth — ZORG",
-  "version": "14",
+  "version": 15,
   "edition": "ChatGPT / Codex",
   "date": "2026.09.24",
   "timezone": "Asia/Irkutsk",
   "requested_by": "Anton Petukhov",
-  "source_commit": "467d9a3dc5c5f3eaafb825c71c923bf470ec667b",
-  "site_url": "https://alien-grammar-synth.tosherr.chatgpt.site"
+  "source_commit": "9e314823466b7179ffbd0e59a939b2d534d43615",
+  "site_url": "https://alien-grammar-synth.tosherr.chatgpt.site",
+  "previous_version": 14,
+  "changes": "Resonant breathing voices, inharmonic strings, hollow percussion, diffuse stereo space and smoother orchestration."
 }

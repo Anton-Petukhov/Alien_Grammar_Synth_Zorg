@@ -1,4 +1,4 @@
-import { ZorgEnsemble, normalizeMusic, musicFitness, musicDistance, PROGRESSIONS } from "./zorg-music.js?v=14";
+import { ZorgEnsemble, normalizeMusic, musicFitness, musicDistance, PROGRESSIONS } from "./zorg-music.js?v=15";
 
 class AlienGrammarProcessor extends AudioWorkletProcessor {
   constructor() {
